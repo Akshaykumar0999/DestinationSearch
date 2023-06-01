@@ -1,0 +1,40 @@
+/* Write your CSS here */
+
+.destination-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.image {
+  max-height: 160px;
+  width: 100%;
+}
+p {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .destination-card {
+    width: 30%;
+    margin: 12px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .image {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .destination-card {
+    width: 25%;
+    margin: 12px;
+  }
+}
